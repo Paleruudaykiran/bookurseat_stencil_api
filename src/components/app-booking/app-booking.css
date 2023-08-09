@@ -1,0 +1,173 @@
+.twocollayout {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:aliceblue;
+    padding:15px;
+}
+.disableseat {
+    background-color: rgb(80, 74, 74);
+    pointer-events: none;
+    cursor:not-allowed;
+}
+
+.sinput {
+    border:none;
+    display:block;
+    margin:10px 0;
+    background-color: inherit;
+    border-bottom: 1px solid black;
+    padding:4px 6px;
+    width:90%;
+}
+.sinput:focus {
+    border-bottom: 2px solid black;
+    outline:none;
+}
+.firstcol {
+    font-size: 2rem;
+    width:500px;
+    text-align: center;
+}
+.secondcol {
+    background-color: aqua;
+    font-size: 1.5rem;
+    padding:10px;
+    box-shadow: 1px 2px 1px black;
+    width:25%;
+}
+.twocollayout {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:aliceblue;
+    padding:15px;
+}
+.sinput {
+    border:none;
+    display:block;
+    margin:10px 0;
+    background-color: inherit;
+    border-bottom: 1px solid black;
+    padding:4px 6px;
+    width:90%;
+}
+.sinput:focus {
+    border-bottom: 2px solid black;
+    outline:none;
+}
+label {
+    display:block;
+}
+.btn {
+    display:block;
+    width:90%;
+    padding:5px 10px;
+    background-color: inherit;
+    border: 1px solid black;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+}
+.btn:hover {
+    background-color: skyblue;
+}
+.firstcol {
+    font-size: 2rem;
+    width:500px;
+    text-align: center;
+}
+.secondcol {
+    background-color: aqua;
+    font-size: 1.5rem;
+    padding:10px;
+    box-shadow: 1px 2px 1px black;
+    width:25%;
+}
+#busdetails {
+    background-color: whitesmoke;
+    width:400px;
+    
+}
+.ditem {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom: 1px solid skyblue;
+    padding:10px;
+}
+.ditem:hover {
+    background-color: aliceblue;
+}
+.header {
+    color:blue;
+    text-align: center;
+    text-transform: uppercase;
+}
+#cseats {
+    display: grid;
+    grid-template-columns: 40px 80px 40px 40px;
+    gap:10px;
+    background-color: antiquewhite;
+    padding:5px;
+}
+#cseats > * {
+    border:1px solid green;
+    /* height:50px; */
+    text-align: center;
+    border-radius: 10px;
+    padding:20px 5px;
+}
+.seat:hover {
+    background-color: gainsboro;
+}
+.seat:nth-child(2) {
+    width: 30px;
+}
+.seat:nth-child(6) {
+    width:30px;
+}
+.seat:nth-child(10) {
+    width:30px;
+}
+.seat:nth-child(14) {
+    width:30px;
+}
+.seat:nth-child(18) {
+    width:30px;
+}
+.seat:nth-child(22) {
+    width:30px;
+}
+.oddseat {
+    width:30px;
+}
+.seatsStyle {
+    display:grid;
+    grid-template-columns: auto auto; 
+    gap:20px;
+    align-items: center;margin:auto;
+}
+.tlayout {
+    display:grid;
+    grid-template-columns:auto auto;
+}
+.success-card {
+    text-align: center;
+    background-color:rgba(0,0,0,0.8);
+    position:absolute;
+    width:100vw;
+    height:200vh;
+    display:table;
+}
+.bg-content {
+    margin:auto 10px;
+    color:white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.special {
+    color:red;
+}

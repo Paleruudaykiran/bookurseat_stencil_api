@@ -6,6 +6,18 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface AdminHome {
+    }
+    interface AppBooking {
+    }
+    interface AppRoot {
+    }
+    interface ConfirmBooking {
+    }
+    interface HomePage {
+    }
+    interface LoginForm {
+    }
     interface MyComponent {
         /**
           * The first name
@@ -20,19 +32,109 @@ export namespace Components {
          */
         "middle": string;
     }
+    interface NavBar {
+    }
+    interface RegistrationForm {
+    }
+    interface UserHome {
+    }
+    interface UserProfile {
+    }
 }
 declare global {
+    interface HTMLAdminHomeElement extends Components.AdminHome, HTMLStencilElement {
+    }
+    var HTMLAdminHomeElement: {
+        prototype: HTMLAdminHomeElement;
+        new (): HTMLAdminHomeElement;
+    };
+    interface HTMLAppBookingElement extends Components.AppBooking, HTMLStencilElement {
+    }
+    var HTMLAppBookingElement: {
+        prototype: HTMLAppBookingElement;
+        new (): HTMLAppBookingElement;
+    };
+    interface HTMLAppRootElement extends Components.AppRoot, HTMLStencilElement {
+    }
+    var HTMLAppRootElement: {
+        prototype: HTMLAppRootElement;
+        new (): HTMLAppRootElement;
+    };
+    interface HTMLConfirmBookingElement extends Components.ConfirmBooking, HTMLStencilElement {
+    }
+    var HTMLConfirmBookingElement: {
+        prototype: HTMLConfirmBookingElement;
+        new (): HTMLConfirmBookingElement;
+    };
+    interface HTMLHomePageElement extends Components.HomePage, HTMLStencilElement {
+    }
+    var HTMLHomePageElement: {
+        prototype: HTMLHomePageElement;
+        new (): HTMLHomePageElement;
+    };
+    interface HTMLLoginFormElement extends Components.LoginForm, HTMLStencilElement {
+    }
+    var HTMLLoginFormElement: {
+        prototype: HTMLLoginFormElement;
+        new (): HTMLLoginFormElement;
+    };
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
     }
     var HTMLMyComponentElement: {
         prototype: HTMLMyComponentElement;
         new (): HTMLMyComponentElement;
     };
+    interface HTMLNavBarElement extends Components.NavBar, HTMLStencilElement {
+    }
+    var HTMLNavBarElement: {
+        prototype: HTMLNavBarElement;
+        new (): HTMLNavBarElement;
+    };
+    interface HTMLRegistrationFormElement extends Components.RegistrationForm, HTMLStencilElement {
+    }
+    var HTMLRegistrationFormElement: {
+        prototype: HTMLRegistrationFormElement;
+        new (): HTMLRegistrationFormElement;
+    };
+    interface HTMLUserHomeElement extends Components.UserHome, HTMLStencilElement {
+    }
+    var HTMLUserHomeElement: {
+        prototype: HTMLUserHomeElement;
+        new (): HTMLUserHomeElement;
+    };
+    interface HTMLUserProfileElement extends Components.UserProfile, HTMLStencilElement {
+    }
+    var HTMLUserProfileElement: {
+        prototype: HTMLUserProfileElement;
+        new (): HTMLUserProfileElement;
+    };
     interface HTMLElementTagNameMap {
+        "admin-home": HTMLAdminHomeElement;
+        "app-booking": HTMLAppBookingElement;
+        "app-root": HTMLAppRootElement;
+        "confirm-booking": HTMLConfirmBookingElement;
+        "home-page": HTMLHomePageElement;
+        "login-form": HTMLLoginFormElement;
         "my-component": HTMLMyComponentElement;
+        "nav-bar": HTMLNavBarElement;
+        "registration-form": HTMLRegistrationFormElement;
+        "user-home": HTMLUserHomeElement;
+        "user-profile": HTMLUserProfileElement;
     }
 }
 declare namespace LocalJSX {
+    interface AdminHome {
+    }
+    interface AppBooking {
+    }
+    interface AppRoot {
+    }
+    interface ConfirmBooking {
+    }
+    interface HomePage {
+    }
+    interface LoginForm {
+    }
     interface MyComponent {
         /**
           * The first name
@@ -47,15 +149,43 @@ declare namespace LocalJSX {
          */
         "middle"?: string;
     }
+    interface NavBar {
+    }
+    interface RegistrationForm {
+    }
+    interface UserHome {
+    }
+    interface UserProfile {
+    }
     interface IntrinsicElements {
+        "admin-home": AdminHome;
+        "app-booking": AppBooking;
+        "app-root": AppRoot;
+        "confirm-booking": ConfirmBooking;
+        "home-page": HomePage;
+        "login-form": LoginForm;
         "my-component": MyComponent;
+        "nav-bar": NavBar;
+        "registration-form": RegistrationForm;
+        "user-home": UserHome;
+        "user-profile": UserProfile;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "admin-home": LocalJSX.AdminHome & JSXBase.HTMLAttributes<HTMLAdminHomeElement>;
+            "app-booking": LocalJSX.AppBooking & JSXBase.HTMLAttributes<HTMLAppBookingElement>;
+            "app-root": LocalJSX.AppRoot & JSXBase.HTMLAttributes<HTMLAppRootElement>;
+            "confirm-booking": LocalJSX.ConfirmBooking & JSXBase.HTMLAttributes<HTMLConfirmBookingElement>;
+            "home-page": LocalJSX.HomePage & JSXBase.HTMLAttributes<HTMLHomePageElement>;
+            "login-form": LocalJSX.LoginForm & JSXBase.HTMLAttributes<HTMLLoginFormElement>;
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "nav-bar": LocalJSX.NavBar & JSXBase.HTMLAttributes<HTMLNavBarElement>;
+            "registration-form": LocalJSX.RegistrationForm & JSXBase.HTMLAttributes<HTMLRegistrationFormElement>;
+            "user-home": LocalJSX.UserHome & JSXBase.HTMLAttributes<HTMLUserHomeElement>;
+            "user-profile": LocalJSX.UserProfile & JSXBase.HTMLAttributes<HTMLUserProfileElement>;
         }
     }
 }

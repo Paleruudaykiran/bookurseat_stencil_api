@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin:0;
+    padding:0;
+	font-family: 'Poppins',sans-serif;
+}
+nav 
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: violet;
+}
+
+.items {
+	margin-left: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.item {
+	list-style-type: none;
+	margin-left: 40px;
+	font-size: 20px;
+}
+li {
+	position:relative;
+}
+.item:hover {
+	opacity: 0.8;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(0,0,0,0.6);
+}
+a::after {
+	content: '';
+	width:0%;
+	position: absolute;
+	height:1px;
+	background-color:darkblue;
+	top: 100%;
+    transform: translateX(-100%);
+    transition: 1s;
+}
+a:hover {
+	color:darkblue;
+}
+a:hover::after {
+	width:100%;
+}
+.nav-firstcol {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	gap:10px;
+	color:darkblue;
+	text-align: center;
+}
+.nav-firstcol:hover {
+	color:gold;
+}
+.nav-logo {
+	
+	border-radius: 100%;
+	padding:5px;
+	border:2px solid darkblue;
+}

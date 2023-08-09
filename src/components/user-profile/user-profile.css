@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+.grid-container {
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    gap:10px;
+    margin-top:10px;
+    font-family: 'Poppins',sans-serif;
+}
+.griditem1 {
+    width:300px;
+    background-color: aliceblue;
+    padding:10px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.griditem2 {
+    width:100%;
+    background-color: aliceblue;
+    padding:10px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.bookings {
+    padding:10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.booking {
+    min-width: 300px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    border-radius:10px;
+}
+.booking-title {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boards {
+    color:red;
+    margin-left:5px;
+}
+.stops {
+    color:blue;
+    margin-right:5px;
+}
+.booking-details div:hover {
+    background-color: aliceblue;
+}
+.booking-detail {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+    padding:0px 5px;
+}
+.booking-detail > h4 {
+    font-weight: 100;
+}
+.booking-detail > h3 {
+    text-align: right;
+}
+.editbtn {
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 1px 1px red;
+    margin-left:5px;
+}
+.startbtn {
+    border-radius: 5px;
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 1px 1px blue;
+    text-decoration: none;
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.container{
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    margin:10px auto;
+    width:700px;
+    border:2px solid black;
+  }
+  .container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom:15px;
+    text-align: center;
+  }
+  .litem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+    align-items: start;
+    padding:20px;
+  }
+.ditem {
+    display:flex;
+    width:100%;
+    justify-content: left;
+}
+.ditem p {
+    margin-right:10px;
+}
+.ditem p {
+    display: flex;
+    justify-content: space-between;
+}
+  #busdetails {
+    display: flex;
+    background-color: #eee4e4d7;
+    box-shadow: 1px 1px 1px whitesmoke;
+    justify-content: space-between;
+    align-items: start;
+  }
+
+  
+
+
